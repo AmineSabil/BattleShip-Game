@@ -56,7 +56,7 @@ Placez vous dans le sous-dossier classes :
 
 - pour créer le jar il suffit d'executer : `jar cvf ../battleship.jar battleship io`
 - puis executez la commande : `jar cvfm ../battleship.jar ../manifest-ex battleship io`
-- pour ajouter le dossier docs et test dans l'archive il suffit de se placer dans tp5 (avec la commande cd ..)
+- pour ajouter le dossier docs et test dans l'archive il suffit de se placer dans la racine ..
 puis executez la commande : `jar cvfm battleship.jar manifest-ex docs test -C classes battleship io`
 
 et le jar est donc complet pour l'executer il suffit de se placer dans tp5 toujours et  d'executer la commande : `java -jar battleship.jar`
