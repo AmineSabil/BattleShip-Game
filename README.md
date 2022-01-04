@@ -24,7 +24,7 @@ pour compiler toutes les classes du paquetage battleship il suffit de saisir  da
 
 ===> ainsi toutes les classes contenues dans le paquetage battleship et le sous paquetage battleship.util seront compilés car ils sont utilisés dans la classe BattleShipMain
 
-pour compiler LA CLASSE Input du paquetage io il suffit de saisir dans le terminal : `javac io/Input.java -d ../classes`
+pour compiler la classe Input du paquetage io il suffit de saisir dans le terminal : `javac io/Input.java -d ../classes`
 
 ===> ainsi la classe Input contenu dans le paquetage io sera compilé
 
