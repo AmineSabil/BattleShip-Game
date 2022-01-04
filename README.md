@@ -54,9 +54,9 @@ pour ShipTest  éxécutez la commande:  `java -jar test-1.7.jar ShipTest`
 
 Placez vous dans le sous-dossier classes :
 
--pour créer le jar il suffit d'executer : `jar cvf ../battleship.jar battleship io`
--puis executez la commande : `jar cvfm ../battleship.jar ../manifest-ex battleship io`
--pour ajouter le dossier docs et test dans l'archive il suffit de se placer dans tp5 (avec la commande cd ..)
+- pour créer le jar il suffit d'executer : `jar cvf ../battleship.jar battleship io`
+- puis executez la commande : `jar cvfm ../battleship.jar ../manifest-ex battleship io`
+- pour ajouter le dossier docs et test dans l'archive il suffit de se placer dans tp5 (avec la commande cd ..)
 puis executez la commande : `jar cvfm battleship.jar manifest-ex docs test -C classes battleship io`
 
 et le jar est donc complet pour l'executer il suffit de se placer dans tp5 toujours et  d'executer la commande : `java -jar battleship.jar`
@@ -66,7 +66,7 @@ et le jar est donc complet pour l'executer il suffit de se placer dans tp5 toujo
 pour tester l'execution du programme il suffit d'executer la CLASSE qui contient le main :
 puis placez vous dans la branche principale du projet :
 
--pour executez la commande:  `java -classpath classes battleship.BattleShipMain`
+- pour executez la commande:  `java -classpath classes battleship.BattleShipMain`
 
 ou
 
